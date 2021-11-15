@@ -33,6 +33,7 @@ public class PrototypeTest {
             System.out.println("PrototypeBean.init");
         }
 
+
         @PreDestroy
         public void destroy() {
             System.out.println("PrototypeBean.destroy");
